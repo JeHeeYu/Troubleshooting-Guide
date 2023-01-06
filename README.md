@@ -11,9 +11,6 @@
 <br>
 :bookmark: : 참고 링크 
 
-<br>
-<br>
-
 ## Operating System
 <ul>
 <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/Ubuntu" target="_blank">우분투(Ubuntu)</li>
