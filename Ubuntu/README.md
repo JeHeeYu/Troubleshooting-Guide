@@ -2,8 +2,7 @@
 
 <details>
   <summary><h3>부팅 시 initramfs 표출 되며 부팅 안됨</h3></summary>
-  
-### 개요 : 우분투 부팅 시 CLI 화면에서 부팅 되지 않으며, initramfs > 가 표출 되어 있음
+
 <b>환경</b> : Ubuntu 16.04 (Virtual Box)
 <br>
 <b>증상</b> : Virtual Box에서 기존 사용하던 우분투 부팅 하였으나 CLI 화면에서 부팅 되지 않음
