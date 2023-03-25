@@ -1,16 +1,16 @@
 # React Natvive Troubleshooting Guide
 
 <details>
-  <summary><h3>React Native CLI 프로젝트 생성 시 error [Project Name] is not a valid name for a project. Please use a valid identifier name (alphanumeric). 오류 발생</h3></summary>
+  <summary><h3>error [Project Name] is not a valid name for a project. Please use a valid identifier name (alphanumeric).</h3></summary>
   
-<b>환경</b> : Ubuntu 16.04, Qt5.12
+<b>환경</b> : Windows
 <br>
-<b>증상</b> : 코드 수정 후 Build 시 오류 발생하여 Build Fail 발생
+<b>증상</b> : React Native CLI 프로젝트 생성 시 error 발생함
 <br>
-<b>원인</b> : 새로운 파일 추가 후 moc 파일이 생성되지 않음. 즉 .pri 또는 .pro 파일의 변경 사항이 적용되지 않음
+<b>원인</b> : 생성하는 프로젝트 이름이 유효하지 않아 발생
 <br>
-<b>해결 방안</b> : Clean - Run qmake 후 작업 진행
+<b>해결 방안</b> : 생성하는 프로젝트 이름에서 하이픈(-) 제거
 <br>
-<b>참고 링크 : </b> [링크](https://codingcoding.tistory.com/320)
+<b>참고 링크 : </b> [링크](https://success206.tistory.com/149)
 
 </details>
