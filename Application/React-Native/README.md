@@ -66,4 +66,20 @@
 
 </details>
 
+<br>
+
+<details>
+  <summary><h3>Render Error</h3></summary>
+  
+<b>환경</b> : Windows
+<br>
+<b>증상</b> : 코드 실행 시 Render Error Text strings muse be rendered within a <Text> component.
+<br>
+<b>원인</b> : JSX 컴포넌트 문법 오류로 인해 발생, 태그 뒤에 ; 또는 / 위치 오류
+<br>
+<b>해결 방안</b> : 문법 수정
+<br>
+<b>참고 링크 : </b> X
+
+</details>
 
