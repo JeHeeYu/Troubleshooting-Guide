@@ -24,11 +24,11 @@
 <br>
 <b>증상</b> : React Native CLI 프로젝트 빌드 시 error 발생
 <br>
-<b>원인</b> : grade build 버전 호환성이 맞지 않아 발생
+<b>원인</b> : 빌드 시 버전 호환성으로 추정
 <br>
-<b>해결 방안</b> : gradle-wrapper.properties, build.gradle 에서 버전 수정
+<b>해결 방안</b> : 프로젝트 루트 경로의 package.json 수정하기
 <br>
-<b>참고 링크 : </b> [링크](https://genie247.tistory.com/m/entry/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C)
+<b>참고 링크 : </b> [링크](https://pcloud.tistory.com/7)
 
 </details>
 
@@ -48,3 +48,22 @@
 <b>참고 링크 : </b> [링크](https://ninearies.tistory.com/326)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Please consider installing 'jetifier' package before running 'jetify' command!</h3></summary>
+  
+<b>환경</b> : Windows
+<br>
+<b>증상</b> : npm 빌드 시 해당 오류 발생
+<br>
+<b>원인</b> : npm 관련 Package가 설치되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : npm -g install [Package Name]
+<br>
+<b>참고 링크 : </b> X
+
+</details>
+
+
