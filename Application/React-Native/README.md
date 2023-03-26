@@ -26,9 +26,9 @@
 <br>
 <b>원인</b> : 빌드 시 버전 호환성으로 추정
 <br>
-<b>해결 방안</b> : 프로젝트 루트 경로의 package.json 수정하기
+<b>해결 방안</b> : 빌드 시 --stacktrace 옵션을 붙여서 내용 확인
 <br>
-<b>참고 링크 : </b> [링크](https://pcloud.tistory.com/7)
+<b>참고 링크 : </b> 
 
 </details>
 
