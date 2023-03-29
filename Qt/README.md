@@ -14,3 +14,20 @@
 <b>참고 링크 : </b> [링크](https://codingcoding.tistory.com/320)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>:No rule to make target [QML File Name], needed by 'qrc_qml.cpp'. Stop.</h3></summary>
+  
+<b>환경</b> : Ubuntu 16.04, Qt5.12
+<br>
+<b>증상</b> : Build 시 오류 발생하여 Build Fail 발생
+<br>
+<b>원인</b> : 실제 폴더 및 파일 내용이 qml.qrc 안에 정의되어 있는 File Path와 상이하여 발생
+<br>
+<b>해결 방안</b> : qml.qrc와 실제 폴더 및 파일 내용 동일하게 수정
+<br>
+<b>참고 링크 : </b> X
+
+</details>
