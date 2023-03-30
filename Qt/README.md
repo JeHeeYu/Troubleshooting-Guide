@@ -31,3 +31,20 @@
 <b>참고 링크 : </b> X
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>:[qml File Name + Code Line]: Duplicate method name</h3></summary>
+  
+<b>환경</b> : Ubuntu 16.04, Qt5.12
+<br>
+<b>증상</b> : Run 시 qml 파일 로드되지 않음
+<br>
+<b>원인</b> : qml 내 function 중복 정의로 발생
+<br>
+<b>해결 방안</b> : function 중복 정의하지 않도록 수정
+<br>
+<b>참고 링크 : </b> X
+
+</details>
