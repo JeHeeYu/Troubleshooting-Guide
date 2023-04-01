@@ -83,3 +83,19 @@
 
 </details>
 
+<br>
+
+<details>
+  <summary><h3>error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.</h3></summary>
+  
+<b>환경</b> : Windows
+<br>
+<b>증상</b> : npm run android로 실행 시 오류 발생
+<br>
+<b>원인</b> : react-native가 시작되지 않아 발생
+<br>
+<b>해결 방안</b> : npx react-native start 후 npm run android 실행
+<br>
+<b>참고 링크 : </b> [링크](https://velog.io/@seewon/React-Native-1%EC%9D%BC%EC%B0%A8)
+
+</details>
