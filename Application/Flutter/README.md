@@ -16,3 +16,20 @@
 </details>
 
 <br>
+
+<details>
+  <summary><h3>Pub get 시 Expected a key while parsing a block mapping. 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows/Android Studio
+<br>
+<b>증상</b> : pubspec.yaml 파일 Pub get 시 오류 발생
+<br>
+<b>원인</b> : 들여쓰기가 맞지 않아 발생
+<br>
+<b>해결 방안</b> : 들여쓰기 수정
+<br>
+<b>참고 링크 : </b> [링크](https://zionh.tistory.com/55)
+
+</details>
+
+<br>
