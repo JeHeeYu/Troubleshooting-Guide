@@ -33,3 +33,22 @@
 </details>
 
 <br>
+
+<br>
+
+<details>
+  <summary><h3>이미지 추가 후 Exception caught by image resource service 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows/Android Studio
+<br>
+<b>증상</b> : pubspec.yaml 파일에 이미지 Path 정상으로 입력하였으나, 오류 발생
+<br>
+<b>원인</b> : pubspec.yaml 수정 후 pub get 안함
+<br>
+<b>해결 방안</b> : flutter pub get 명령어 실행
+<br>
+<b>참고 링크 : </b> X
+
+</details>
+
+<br>
