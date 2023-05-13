@@ -52,3 +52,22 @@
 </details>
 
 <br>
+
+<br>
+
+<details>
+  <summary><h3>flutter tts 추가 후 MissingPluginException 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : flutter tts 라이브러리 설치 후 빌드 시 오류 발생
+<br>
+<b>원인</b> : sdk 버전 오류
+<br>
+<b>해결 방안</b> : minSdkversion 19에서 21로 변경 후 실행
+<br>
+<b>참고 링크 : </b> X
+
+</details>
+
+<br>
