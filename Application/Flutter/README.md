@@ -71,3 +71,23 @@
 </details>
 
 <br>
+
+
+<br>
+
+<details>
+  <summary><h3>화면에 BOTTOM OVERFLOWD BY PIXELS 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : 앱 실행 시 화면에 BOTTOM OVERFLOWD BY PIXELS 오류 표출됨
+<br>
+<b>원인</b> : 화면에 특정 위젯의 크기가 범위를 벗어나서 발생
+<br>
+<b>해결 방안</b> : Scaffold에 resizeToAvoidBottomInset : false 속성 추가
+<br>
+<b>참고 링크 : </b> [링크](https://woongnemonan.tistory.com/entry/%ED%94%8C%EB%9F%AC%ED%84%B0Flutter-Bottom-Overflowed-By-xx-pixels)
+
+</details>
+
+<br>
