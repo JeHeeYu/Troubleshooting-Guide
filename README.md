@@ -30,3 +30,8 @@
 <ul>
   <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/Git/GitHub" target="_blank">GitHub</li>
 </ul>
+
+## DB
+<ul>
+<li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/DB/MySQL" target="_blank">MySQL</li>
+</ul>
