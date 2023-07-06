@@ -23,14 +23,8 @@
 <b>환경</b> : Windows 10
 <br>
 <b>증상</b> : MySQL WorkBench 실행 후 Local instance MySQL80 클릭하니 아래 오류 발생
-
 <br>
-
 ![image](https://github.com/JeHeeYu/Troubleshooting-Guide/assets/87363461/489ed7c8-5194-418c-8dac-8eb50f1b1ed8)
-
-
-<br>
-
 <br>
 <b>원인</b> : MySQL 버전과 MySQL Workbench 버전이 상이해서 발생
 <br>
