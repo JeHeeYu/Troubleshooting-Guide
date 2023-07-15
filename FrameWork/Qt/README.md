@@ -67,6 +67,7 @@
 
 
 <br>
+
 <b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/58625924/qt-error-message-qt-network-ssl-qsslsocketconnecttohostencrypted-tls-initia)
 
 </details>
