@@ -23,7 +23,9 @@
 
 ## Application
 <ul>
-  <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/Application/React-Native" target="_blank">React Native</li>
+  <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/Application/Android" target="_blank">Android</li>
+    <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/Application/Flutter" target="_blank">Flutter</li>
+      <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/Application/React-Native" target="_blank">React Native</li>
 </ul>
 
 ## Git
