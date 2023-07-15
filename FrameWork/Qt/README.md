@@ -71,3 +71,26 @@
 <b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/58625924/qt-error-message-qt-network-ssl-qsslsocketconnecttohostencrypted-tls-initia)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>3DES 암호화 코드 추가 후 Build 시 qt undefined reference to symbol des_set_key@@openssl_1.0.2.d 오류 발생</h3></summary>
+  
+<b>환경</b> : Ubuntu 16.04, Qt5.12
+<br>
+<b>증상</b> : <openssl/des.h> Header 추가 및 3DES 암호화 코드 추가 시 빌드 오류 발생
+<br>
+<b>원인</b> : .pro 파일에 LIB 추가하지 않아 발생
+<br>
+<b>해결 방안</b> : .pro 파일에 lcrypto 추가
+
+```
+LIBS += -lcrypto
+```
+
+<br>
+
+<b>참고 링크 : </b> [링크](https://forum.qt.io/topic/72493/qt-and-openssl-compilation-undefined-reference/3)
+
+</details>
