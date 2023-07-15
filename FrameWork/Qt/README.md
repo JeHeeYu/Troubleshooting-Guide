@@ -48,3 +48,25 @@
 <b>참고 링크 : </b> X
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>qt.network.ssl tls initialization failed 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows 10, Qt5.12
+<br>
+<b>증상</b> : HTTP(GET) Method 호출 시 SSL Fail 오류 발생
+<br>
+<b>원인</b> : Qt - Open SSL 환경 변수 추가되지 않아 발생
+<br>
+<b>해결 방안</b> : Qt - Open SSL Path 추가
+<br>
+
+![image](https://github.com/JeHeeYu/Troubleshooting-Guide/assets/87363461/bf1ad91c-5cdb-4bbb-93e9-84b4a7c920e6)
+
+
+<br>
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/58625924/qt-error-message-qt-network-ssl-qsslsocketconnecttohostencrypted-tls-initia)
+
+</details>
