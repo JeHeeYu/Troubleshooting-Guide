@@ -94,3 +94,20 @@ LIBS += -lcrypto
 <b>참고 링크 : </b> [링크](https://forum.qt.io/topic/72493/qt-and-openssl-compilation-undefined-reference/3)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Run 시 cannot open output file debug\[파일 이름.exe] permission denied qt 오류 발생</h3></summary>
+  
+<b>환경</b> : Windwos 10, Qt5.12
+<br>
+<b>증상</b> : 프로그램 Run 시 오류 발생
+<br>
+<b>원인</b> : 프로그램이 프로세스에 남아 있어 발생
+<br>
+<b>해결 방안</b> : 작업 관리자에서 실행 중인 프로세스 종료
+<br>
+<b>참고 링크 : </b> [링크](https://hunit.tistory.com/237)
+
+</details>
