@@ -98,16 +98,16 @@ LIBS += -lcrypto
 <br>
 
 <details>
-  <summary><h3>Run 시 cannot open output file debug\[파일 이름.exe] permission denied qt 오류 발생</h3></summary>
+  <summary><h3>QAbstractItemModel 클래스 상속 후 Build 시 invalid cast to abstract class type [Class Name] 오류 발생</h3></summary>
   
-<b>환경</b> : Windwos 10, Qt5.12
+<b>환경</b> : Ubuntu 16.04, Qt5.12
 <br>
-<b>증상</b> : 프로그램 Run 시 오류 발생
+<b>증상</b> : 프로그램 Build 시 오류 발생
 <br>
-<b>원인</b> : 프로그램이 프로세스에 남아 있어 발생
+<b>원인</b> : QAbstractItemModel 상속 후 필수 메서드 Overriding 하지 않아서 발생
 <br>
-<b>해결 방안</b> : 작업 관리자에서 실행 중인 프로세스 종료
+<b>해결 방안</b> : rowCount, data 메서드 재정의
 <br>
-<b>참고 링크 : </b> [링크](https://hunit.tistory.com/237)
+<b>참고 링크 : </b> X
 
 </details>
