@@ -14,3 +14,44 @@
 <b>참고 링크 : </b> [링크](https://sosoeasy.tistory.com/406)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>error: commit [Commit ID] is a merge but no m option was given revert</h3></summary>
+  
+<b>환경</b> : Windows
+<br>
+<b>증상</b> : git revert [Commit ID] 입력 시 오류 발생
+<br>
+<b>원인</b> : 병합 커밋을 실제로 의미하는 것이 모호하여 git에서 거부하여 발생
+<br>
+<b>해결 방안</b> : git cat-file -p [Commit ID], git revert [Commit ID]  -m 1 or 2
+```
+got cat-file -p b13368f
+git revert b13368f -m 1
+```
+<b>참고 링크 : </b> [링크](https://dev-syhy.tistory.com/44)
+
+</details>
+
+<br>
+
+<details>
+  <summary><h3>error: The following untracked working tree files would be overwritten by merge</h3></summary>
+  
+<b>환경</b> : Windows
+<br>
+<b>증상</b> : git pull 시 오류 발생
+<br>
+<b>원인</b> : origin branch와 local branch가 상이하여 발생
+<br>
+<b>해결 방안</b>
+```
+git add -A
+git stash
+git pull
+```
+<b>참고 링크 : </b> [링크](https://velog.io/@t1dmlgus/The-following-untracked-working-tree-files-would-be-overwritten-by-merge)
+
+</details>
