@@ -51,3 +51,24 @@ app:layout_constraintStart_toStartOf="parent"
 <b>참고 링크 : </b> X
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type List<Row>? 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows/Android Studio
+<br>
+<b>증상</b> : List<Row>? 타입 Size 반복 시 오류 발생
+<br>
+<b>원인</b> : List<Row>? 타입인데 null 체크를 하지 않아 발생
+<br>
+<b>해결 방안</b> : 아래와 같이 null 체크
+```
+if([변수] != null) {
+}
+```
+<b>참고 링크 : </b> X
+
+</details>
+
