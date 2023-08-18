@@ -37,3 +37,5 @@
 <ul>
 <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/DB/MySQL" target="_blank">MySQL</li>
 </ul>
+
+## Web
