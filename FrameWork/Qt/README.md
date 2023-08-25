@@ -111,3 +111,22 @@ LIBS += -lcrypto
 <b>참고 링크 : </b> X
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>QSqlDatabase 객체 사용 시 "Driver not loaded" 오류 발생</h3></summary>
+  
+<b>환경</b> : Ubuntu 16.04, Qt5.12
+<br>
+<b>증상</b> : QSqlDatabase 객체 사용 시 오류 발생
+<br>
+<b>원인</b> : Database 타입을 지정하지 않아 발생
+<br>
+<b>해결 방안</b> : sql 변수 데이터베이스 타입 지정
+```
+QSqlDatabase::addDatabase("QSQLITE") 
+```
+<b>참고 링크 : </b> X
+
+</details>
