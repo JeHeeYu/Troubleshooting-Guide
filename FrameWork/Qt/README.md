@@ -130,3 +130,22 @@ QSqlDatabase::addDatabase("QSQLITE")
 <b>참고 링크 : </b> X
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Build 시 "cannot run compiler 'clang++'. output" 오류 발생</h3></summary>
+  
+<b>환경</b> : Ubuntu 22.04, Qt5.12
+<br>
+<b>증상</b> : Windows에서 작업 하던 프로젝트를 Ubuntu에서 빌드 시 오류 발생
+<br>
+<b>원인</b> : clang이 설치 되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : clang 설치
+```
+sudo apt-get install clang
+```
+<b>참고 링크 : </b> [링크](https://forum.qt.io/topic/99294/project-error-cannot-run-compiler-clang-output/8)
+
+</details>
