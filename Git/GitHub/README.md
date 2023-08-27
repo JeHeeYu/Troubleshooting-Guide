@@ -55,3 +55,35 @@ git pull
 <b>참고 링크 : </b> [링크](https://velog.io/@t1dmlgus/The-following-untracked-working-tree-files-would-be-overwritten-by-merge)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>error: git authentication failed</h3></summary>
+  
+<b>환경</b> : Ubuntu 22.04
+<br>
+<b>증상</b> : git push 시 오류 발생
+<br>
+<b>원인</b> : token 등록이 되지 않아 발생
+<br>
+<b>해결 방안</b> : access token 등록
+<b>참고 링크 : </b> [링크](https://wotres.tistory.com/entry/Github-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B2%95-Authentication-failed-for-use-a-personal-access-token-instead)
+
+</details>
+
+<br>
+
+<details>
+  <summary><h3>unable to access [Project URL]: The requested URL returned error: 403</h3></summary>
+  
+<b>환경</b> : Ubuntu 22.04
+<br>
+<b>증상</b> : git push 시 오류 발생
+<br>
+<b>원인</b> : 링크에 권한이 없어 발생
+<br>
+<b>해결 방안</b> : access token 등록
+<b>참고 링크 : </b> [링크](https://beagle-dev.tistory.com/244)
+
+</details>
