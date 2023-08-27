@@ -168,3 +168,25 @@ sudo apt install qtdeclarative5-dev
 <b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/32052814/unknown-modules-in-qt-qml-quick)
 
 </details>
+
+
+<br>
+
+<details>
+  <summary><h3>Build 시 "plugin cannot be loaded for module "QtQuick.Controls": Cannot protect module QtQuick.Controls 2 as it was never registered" 오류 발생</h3></summary>
+  
+<b>환경</b> : Ubuntu 22.04, Qt5.12
+<br>
+<b>증상</b> : QtQuick.Controls import 부분에서 오류 발생
+<br>
+<b>원인</b> : qt dev 패키지가 설치 되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : qt dev 패키지 설치 
+```
+sudo apt install qtdeclarative5-dev
+```
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/32052814/unknown-modules-in-qt-qml-quick)
+
+</details>
+
+
