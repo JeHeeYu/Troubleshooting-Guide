@@ -190,3 +190,19 @@ sudo apt install qml-module-qtquick-controls2
 </details>
 
 
+<br>
+
+<details>
+  <summary><h3>Text elide 속성 적용 안됨</h3></summary>
+  
+<b>환경</b> : Ubuntu 16.04, Qt5.12
+<br>
+<b>증상</b> : elide 속성 적용 안됨
+<br>
+<b>원인</b> : wrapMode가 지정되어 있어 발생
+<br>
+<b>해결 방안</b> : wrapMode 미지정
+<br>
+<b>참고 링크 : </b> X
+
+</details>
