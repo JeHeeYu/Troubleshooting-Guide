@@ -38,4 +38,7 @@
 <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/DB/MySQL" target="_blank">MySQL</li>
 </ul>
 
-## Web
+## IDE
+<ul>
+<li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/IDE/Visual%20Studio%20Code" target="_blank">Visual Studio Code</li>
+</ul>
