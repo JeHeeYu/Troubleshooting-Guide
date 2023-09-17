@@ -9,23 +9,10 @@
 <br>
 <b>원인</b> : index.html의 path가 맞지 않아 발생
 <br>
-<b>해결 방안</b> : launch.json 파일에서 url 주석 후 경로 지정
-```
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "localhost에 대해 Chrome 시작",
-            // "url": "http://localhost:8080",
-            // "webRoot": "${workspaceFolder}"
-            "file": "${workspaceFolder}/web/index.html"
-        }
-    ]
-```
+<b>해결 방안</b> : .vscode/launch.json 파일 삭제
 <br>
 
-<b>참고 링크 : </b> [링크](https://m.blog.naver.com/kch8246/222648137463)
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/67561515/crbug-1173575-non-js-module-files-deprecated-error-in-flutter)
 
 </details>
 
