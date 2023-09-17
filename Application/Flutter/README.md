@@ -91,3 +91,49 @@
 </details>
 
 <br>
+
+<br>
+
+<details>
+  <summary><h3>Chrome 환경에서 PageView Swipe 동작 안됨</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : Run 후 크롬에서 Swipe 동작 안됨
+<br>
+<b>원인</b> : 웹 환경에서는 어떤 동작인지 속성 지정 필요
+<br>
+<b>해결 방안</b> : scrollBehavior 속성 지정
+```
+class AppScrollBehavior extends MaterialScrollBehavior {
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+      };
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    print("Jehee");
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: RoutesName.home,
+      onGenerateRoute: Routes.generateRoute,
+      scrollBehavior: AppScrollBehavior(),   // scroll 속성 지정
+    );
+  }
+}
+```
+<br>
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/69424933/flutter-pageview-not-swipeable-on-web-desktop-mode)
+
+</details>
+
+<br>
