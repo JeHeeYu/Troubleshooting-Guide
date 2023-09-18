@@ -138,3 +138,29 @@ class MyApp extends StatelessWidget {
 </details>
 
 <br>
+
+
+<br>
+
+<details>
+  <summary><h3>uncaught referenceerror: _flutter is not defined</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : github로 웹 호스팅 시 화면 표출되지 않고 콘솔에서 uncaught referenceerror: _flutter is not defined 오류 발생
+<br>
+<b>원인</b> : index.html 오류
+<br>
+<b>해결 방안</b> : script 추가 및 href 수정
+```
+<base href="./">
+<script src="main.dart.js" type="application/javascript"></script>
+```
+
+
+
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/72833719/getting-flutter-is-undefined-in-flutter-web-only-in-production)
+
+</details>
+
+<br>
