@@ -164,3 +164,20 @@ class MyApp extends StatelessWidget {
 </details>
 
 <br>
+
+<details>
+  <summary><h3>XMLHttpRequest error</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : 플러터 웹(Chrome) 환경에서 Post 요청 시 에러 발생
+<br>
+<b>원인</b> : index.html 오류
+<br>
+<b>해결 방안</b> : flutter_tools.stamp 삭제 및 chrome.dart 수정
+<br>
+<b>참고 링크 : </b> [링크](https://youngwonhan-family.tistory.com/entry/FlutterDart-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0-Error-XMLHttpRequest-error)
+
+</details>
+
+<br>
