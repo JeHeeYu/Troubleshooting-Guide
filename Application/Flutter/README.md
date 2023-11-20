@@ -181,3 +181,18 @@ class MyApp extends StatelessWidget {
 </details>
 
 <br>
+
+<details>
+  <summary><h3>Firebase 추가 후 빌드 시 Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 에러 발생</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : 플러터에서 Firebase 관련 패키지 추가 후 빌드 시 에러 발생
+<br>
+<b>원인</b> : Kotlin의 버전이 최신 버전이어 발생
+<br>
+<b>해결 방안</b> : Kotlin 버전 낮춘 후 빌드
+<br>
+<b>참고 링크 : </b> [링크](https://dalgonakit.tistory.com/159)
+
+</details>
