@@ -196,3 +196,20 @@ class MyApp extends StatelessWidget {
 <b>참고 링크 : </b> [링크](https://dalgonakit.tistory.com/159)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Unresolved reference: uppercase</h3></summary>
+  
+<b>환경</b> : Windows/Visual Stuido Code
+<br>
+<b>증상</b> : 플러터 빌드 시 Unresolved reference: uppercase 에러 발생
+<br>
+<b>원인</b> : Kotlin 1.5 버전 이하에서 uppercase() 메소드가 지원되지 않아 발생
+<br>
+<b>해결 방안</b> : Kotlin 버전을 1.5 이상으로 적용 후 빌드
+<br>
+<b>참고 링크 : </b> [링크](https://chosunghyun18.tistory.com/2)
+
+</details>
