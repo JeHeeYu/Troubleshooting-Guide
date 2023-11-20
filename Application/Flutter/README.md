@@ -189,11 +189,11 @@ class MyApp extends StatelessWidget {
 <br>
 <b>증상</b> : 플러터에서 Firebase 관련 패키지 추가 후 빌드 시 에러 발생
 <br>
-<b>원인</b> : Kotlin의 버전이 최신 버전이어 발생
+<b>원인</b> : Kotlin 버전과 Compose 버전이 서로 호환되지 않아 발생
 <br>
-<b>해결 방안</b> : Kotlin 버전 낮춘 후 빌드
+<b>해결 방안</b> : Kotlin 버전 및 Compose 버전 수정
 <br>
-<b>참고 링크 : </b> [링크](https://dalgonakit.tistory.com/159)
+<b>참고 링크 : </b> [링크](https://yeons4every.tistory.com/26)
 
 </details>
 
