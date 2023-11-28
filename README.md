@@ -41,5 +41,5 @@
 ## IDE
 <ul>
 <li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/IDE/Visual%20Studio%20Code" target="_blank">Visual Studio Code</li>
-<li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/IDE/Visual%20Studio" target="_blank">Visual Studio Code</li>
+<li><a href="https://github.com/JeHeeYu/Troubleshooting-Guide/tree/main/IDE/Visual%20Studio" target="_blank">Visual Studioㅐ</li>
 </ul>
