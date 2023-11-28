@@ -21,3 +21,22 @@
 <br>
 
 
+<details>
+  <summary><h3>Visual Studio에서 빌드 시 빌드 도구 오류 발생</h3></summary>
+  
+<b>환경</b> : Windows11 / Visual Studio 2019
+<br>
+<b>증상</b> : Visual Studio에서 빌드 시 아래 오류 발생
+```
+v143에 대한 빌드 도구(플랫폼 도구 집합 = 'v143')를 찾을 수 없습니다. v143 빌드 도구를 사용하여 빌드하려면 v143 빌드 도구를 설치하십시오.  [프로젝트] 메뉴를 선택하거나 솔루션을 마우스 오른쪽 단추로 클릭한 다음 "솔루션 대상 변경"을 선택하여 현재 Visual Studio 도구로 업그레이드할 수도 있습니다.
+
+```
+<b>원인</b> : Visual Studio 에서 플랫폼 도구 집합이 설치되지 않은 버전이어 발생
+<br>
+<b>해결 방안</b> : 플랫폼 버전 도구 집합 버전 변경
+<br>
+<b>참고 링크 : </b> [링크](https://enjoy-coding-together.tistory.com/13)
+
+</details>
+
+<br>
