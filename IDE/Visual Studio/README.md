@@ -40,3 +40,21 @@ v143에 대한 빌드 도구(플랫폼 도구 집합 = 'v143')를 찾을 수 없
 </details>
 
 <br>
+
+
+<details>
+  <summary><h3>openssl/ssl.h No such file or directory</h3></summary>
+  
+<b>환경</b> : Windows11 / Visual Studio 2019
+<br>
+<b>증상</b> : Visual Studio에서 빌드 시 ssl이 없다는 오류 발생
+<br>
+<b>원인</b> : Visual Studio 에서 openssl 환경설정이 되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : Project 속성에 openssl 설정 추가
+<br>
+<b>참고 링크 : </b> [링크](https://playground10.tistory.com/188)
+
+</details>
+
+<br>
