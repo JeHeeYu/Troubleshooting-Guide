@@ -87,3 +87,19 @@ git pull
 <b>참고 링크 : </b> [링크](https://beagle-dev.tistory.com/244)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>open(".vs/[프로젝트명]/v16/Browse.VC.opendb"): Permission denied</h3></summary>
+  
+<b>환경</b> : Windows 11
+<br>
+<b>증상</b> : git push 시 오류 발생
+<br>
+<b>원인</b> : Visual Studio 설정 문제로 인해 발생
+<br>
+<b>해결 방안</b> : Visual Studio 환경 설정 변
+<b>참고 링크 : </b> [링크](https://songacoding.tistory.com/42)
+
+</details>
