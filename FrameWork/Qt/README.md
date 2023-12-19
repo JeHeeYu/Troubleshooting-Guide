@@ -206,3 +206,21 @@ sudo apt install qml-module-qtquick-controls2
 <b>참고 링크 : </b> X
 
 </details>
+
+
+<br>
+
+<details>
+  <summary><h3>QML - ChartView 실행 시 crash 발생</h3></summary>
+  
+<b>환경</b> : Windows 11, Qt5.15
+<br>
+<b>증상</b> : QML에 ChartView 선언 후 Run 시 App Crash 발생
+<br>
+<b>원인</b> : Application 타입이 달라 발생
+<br>
+<b>해결 방안</b> : Application 타입 변경
+<br>
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/46471805/chartview-crash-when-launching-on-mobile-qt-qml-error)
+
+</details>
