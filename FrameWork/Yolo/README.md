@@ -1,11 +1,11 @@
-# Yolo Guide
+# Yolo Troubleshooting Guide
 
 <details>
   <summary><h3>Error: cuDNN isn't found FWD algo for convolution.</h3></summary>
   
 <b>환경</b> : Windows 11, Visual studio 2019, Yolov4, NVIDA GeForce RTX 3070
 <br>
-<b>증상</b> : RTSP + Yolov4 동작 중 특정 갯수 채널 이상이 되면 오류 발
+<b>증상</b> : RTSP + Yolov4 동작 중 특정 채널 이상이 되면 오류 발생
 <br>
 <b>원인</b> : Input Data가 GPU Memory의 사이즈보다 커서 발생
 <br>
