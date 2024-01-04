@@ -17,8 +17,6 @@
 
 <br>
 
-# Yolo Troubleshooting Guide
-
 <details>
   <summary><h3>FileNotFoundError: Could not find: nvinfer.dll. Is it on your PATH?</h3></summary>
   
