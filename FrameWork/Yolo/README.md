@@ -16,3 +16,22 @@
 </details>
 
 <br>
+
+# Yolo Troubleshooting Guide
+
+<details>
+  <summary><h3>FileNotFoundError: Could not find: nvinfer.dll. Is it on your PATH?</h3></summary>
+  
+<b>환경</b> : Windows 11, Visual studio 2019, Yolov4, CUDA 11.7, TensorRT-8.6.1.6
+<br>
+<b>증상</b> : (TensorRT + yolov4) trt_yolo.py 실행 시 오류 발생
+<br>
+<b>원인</b> : CUDA 폴더에 TensorRT dll이 포함되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : CUDA 폴더에 TensorRT dll 포함
+<br>
+<b>참고 링크 : </b> [링크](https://cloud.tencent.com/developer/article/2169877)
+
+</details>
+
+<br>
