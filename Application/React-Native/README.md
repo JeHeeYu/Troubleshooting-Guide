@@ -99,3 +99,20 @@
 <b>참고 링크 : </b> [링크](https://velog.io/@seewon/React-Native-1%EC%9D%BC%EC%B0%A8)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Invariant Violation: requireNativeComponent: "RNSScreen" was not found in the UIManager.</h3></summary>
+  
+<b>환경</b> : Windows React Native v0.76.8 Visual Studio Code
+<br>
+<b>증상</b> : Bottom Navigation 코드 추가 후 실행 시 오류 발생
+<br>
+<b>원인</b> : React Navigation 패키지가 설치되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : React Navigation 패키지 설치
+<br>
+<b>참고 링크 : </b> [링크](https://talkwithcode.tistory.com/47)
+
+</details>
