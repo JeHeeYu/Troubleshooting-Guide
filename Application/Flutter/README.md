@@ -213,3 +213,37 @@ class MyApp extends StatelessWidget {
 <b>참고 링크 : </b> [링크](https://chosunghyun18.tistory.com/2)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>(Android Studio) Unable to find bundled Java version.</h3></summary>
+  
+<b>환경</b> : Mac 
+<br>
+<b>증상</b> : 자바 버전 변경 후 터미널에서 flutter doctor 실행 시 오류 발생
+<br>
+<b>원인</b> : 안드로이드 스튜디오 JDK 경로 오류
+<br>
+<b>해결 방안</b> : 안드로이드 스튜디오 JDK 경로 재지정
+<br>
+<b>참고 링크 : </b> [링크](https://velog.io/@cafefarm-johnny/flutter-doctor-%EC%9D%B4%EC%8A%88-%EB%8C%80%EC%9D%91-%EB%AA%A9%EB%A1%9D)
+
+</details>
+
+<br>
+
+<details>
+  <summary><h3>Could not open settings generic class cache for settings file</h3></summary>
+  
+<b>환경</b> : Mac 
+<br>
+<b>증상</b> : Flutter 버전 변경 후 오류 발생
+<br>
+<b>원인</b> : 자바 버전 호환성으로 인해 발생
+<br>
+<b>해결 방안</b> : 자바 버전 변경 (21 -> 17)
+<br>
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/67240279/could-not-open-settings-generic-class-cache-for-settings-file)
+
+</details>
