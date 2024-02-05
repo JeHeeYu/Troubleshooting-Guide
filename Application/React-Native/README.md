@@ -116,3 +116,30 @@
 <b>참고 링크 : </b> [링크](https://talkwithcode.tistory.com/47)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Unable to start the daemon process.</h3></summary>
+  
+<b>환경</b> : Windows11 / React Native v0.73.10 / Visual Studio Code
+<br>
+<b>증상</b> : npm run start 시 오류 발생
+<br>
+<b>원인</b> : JVM 메모리가 부족하여 발생
+<br>
+<b>해결 방안</b> : JVM 메모리 재할당
+```
+// android\gradle.properties
+
+// before
+org.gradle.jvmargs=-Xmx2048m -XX:MaxMetaspaceSize=512m
+
+// after
+org.gradle.jvmargs=-Xmx512m -XX:MaxMetaspaceSize=512m
+```
+<br>
+
+<b>참고 링크 : </b> [링크](https://tlshenm.tistory.com/37)
+
+</details>
