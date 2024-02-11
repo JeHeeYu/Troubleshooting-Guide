@@ -166,3 +166,26 @@ pod update
 <b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/56160460/error-unable-to-load-contents-of-file-list-target-support-files-pods-xx-pods)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>SDK location not found. Define a valid SDK location with an ANDROID_HOME environment variable or by setting the sdk.dir path in your project's local properties file at</h3></summary>
+  
+<b>환경</b> : Mac / React Native v0.72.6 / Visual Studio Code
+<br>
+<b>증상</b> : npm run start 후 android 시뮬레이터 실행 시 오류 발생
+<br>
+<b>원인</b> : 프로젝트에서 Android SDK 경로가 지정되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : local.properties에 Android SDK 경로 추가
+```
+cd ios
+pod deintegrate
+pod update
+```
+<br>
+
+<b>참고 링크 : </b> [링크](https://hdhdeveloper.tistory.com/103)
+
+</details>
