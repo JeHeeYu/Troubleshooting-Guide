@@ -143,3 +143,26 @@ org.gradle.jvmargs=-Xmx512m -XX:MaxMetaspaceSize=512m
 <b>참고 링크 : </b> [링크](https://tlshenm.tistory.com/37)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>unable to load contents of file list xcfilelist</h3></summary>
+  
+<b>환경</b> : Mac / React Native v0.72.6 / Visual Studio Code
+<br>
+<b>증상</b> : npm run start 후 ios 시뮬레이터 실행 시 오류 발생
+<br>
+<b>원인</b> : pod 잔여 캐시가 클리어 되지 않아 발생
+<br>
+<b>해결 방안</b> : pod 클리어 후 update
+```
+cd ios
+pod deintegrate
+pod update
+```
+<br>
+
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/56160460/error-unable-to-load-contents-of-file-list-target-support-files-pods-xx-pods)
+
+</details>
