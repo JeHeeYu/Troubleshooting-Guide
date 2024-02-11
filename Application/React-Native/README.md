@@ -189,3 +189,23 @@ pod update
 <b>참고 링크 : </b> [링크](https://hdhdeveloper.tistory.com/103)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Typescript - Cannot use JSX unless the '--jsx' flag is provided.ts</h3></summary>
+  
+<b>환경</b> : Mac / React Native v0.72.6 / Visual Studio Code
+<br>
+<b>증상</b> : Visual Stuio Code로 프로젝트 오픈 후 코드에서 오류 발생
+<br>
+<b>원인</b> : Typescript 버전이 설정되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : Typescript 버전 설정
+<br>
+
+<b>참고 링크 : </b> [링크](https://steadily-worked.tistory.com/632)
+
+</details>
+
+
