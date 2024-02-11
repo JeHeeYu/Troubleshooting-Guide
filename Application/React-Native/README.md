@@ -153,9 +153,9 @@ org.gradle.jvmargs=-Xmx512m -XX:MaxMetaspaceSize=512m
 <br>
 <b>증상</b> : npm run start 후 ios 시뮬레이터 실행 시 오류 발생
 <br>
-<b>원인</b> : pod 잔여 캐시가 클리어 되지 않아 발생
+<b>원인</b> : pod 잔여 캐시가 클리어 되지 않아 발생
 <br>
-<b>해결 방안</b> : pod 클리어 후 update
+<b>해결 방안</b> : pod 클리어 후 update
 ```
 cd ios
 pod deintegrate
