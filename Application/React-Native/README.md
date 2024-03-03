@@ -208,4 +208,26 @@ pod update
 
 </details>
 
+<br>
+
+<details>
+  <summary><h3>Error: spawnSync adb ENOENT</h3></summary>
+  
+<b>환경</b> : Mac / React Native v0.72.6 / Visual Studio Code
+<br>
+<b>증상</b> : npm run start 후 안드로이드 실행 시 오류 발생
+<br>
+<b>원인</b> : android-platform-tools 패키지가 다운로드 되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : android-platform-tools 다운로드
+```
+brew install --cask android-platform-tools
+```
+
+<br>
+
+<b>참고 링크 : </b> [링크](https://talkwithcode.tistory.com/45)
+
+</details>
+
 
