@@ -230,4 +230,27 @@ brew install --cask android-platform-tools
 
 </details>
 
+<br>
+
+<details>
+  <summary><h3>Error: [Reanimated] Native part of Reanimated doesn't seem to be initialized.</h3></summary>
+  
+<b>환경</b> : Mac / React Native v0.72.6 / Visual Studio Code
+<br>
+<b>증상</b> : npm run start 후 IOS/Android 실행 시 오류 발생
+<br>
+<b>원인</b> : 프로젝트 캐시로 인하여 버전 충돌로 발생
+<br>
+<b>해결 방안</b> : npx react-native-clean-project 후 재실행
+```
+npx react-native-clean-project
+cd ios
+pod install
+```
+
+<br>
+
+<b>참고 링크 : </b> [링크](https://github.com/software-mansion/react-native-reanimated/issues/4663)
+
+</details>
 
