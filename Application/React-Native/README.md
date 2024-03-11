@@ -254,3 +254,25 @@ pod install
 
 </details>
 
+<br>
+
+<details>
+  <summary><h3>Error: Axios Network Error</h3></summary>
+  
+<b>환경</b> : Mac / React Native v0.72.6 / Visual Studio Code
+<br>
+<b>증상</b> : URL과 서버가 정상인 상황에서 API 호출 시 오류 발생
+<br>
+<b>원인</b> : 보안정책으로 인하여 발생
+<br>
+<b>해결 방안</b> : NSAllowsArbitraryLoads 추가 시 해결
+```
+<key>NSAllowsArbitraryLoads</key> 
+<true/> 
+```
+
+<br>
+
+<b>참고 링크 : </b> [링크](https://bocoder.tistory.com/101)
+
+</details>
