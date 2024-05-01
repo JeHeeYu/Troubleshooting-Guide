@@ -229,7 +229,7 @@ class MyApp extends StatelessWidget {
 <br>
 <b>참고 링크 : </b> [링크](https://velog.io/@cafefarm-johnny/flutter-doctor-%EC%9D%B4%EC%8A%88-%EB%8C%80%EC%9D%91-%EB%AA%A9%EB%A1%9D)
 
-<b>환경</b> : Windows
+<b>환경</b> : Windows 11
 <br>
 <b>증상</b> : 자바 버전 변경 후 터미널에서 flutter doctor 실행 시 오류 발생
 <br>
@@ -248,12 +248,33 @@ class MyApp extends StatelessWidget {
   
 <b>환경</b> : Mac 
 <br>
-<b>증상</b> : Flutter 버전 변경 후 오류 발생
+<b>증상</b> : Flutter 버전 변경 후 오류 발생
 <br>
-<b>원인</b> : 자바 버전 호환성으로 인해 발생
+<b>원인</b> : 자바 버전 호환성으로 인해 발생
 <br>
-<b>해결 방안</b> : 자바 버전 변경 (21 -> 17)
+<b>해결 방안</b> : 자바 버전 변경 (21 -> 17)
 <br>
 <b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/67240279/could-not-open-settings-generic-class-cache-for-settings-file)
 
 </details>
+
+<details>
+  <summary><h3>cmdline-tools component is missing</h3></summary>
+
+<b>환경</b> : Windows 11
+<br>
+<b>증상</b> : flutter doctor 시 오류 발생
+<br>
+<b>원인</b> : 안드로이드 스튜디오에서 cmd tools가 다운로드되어 있지 않아 발생
+<br>
+<b>해결 방안</b> : cmd tools 다운로드
+
+<img width="728" alt="image" src="https://github.com/JeHeeYu/Troubleshooting-Guide/assets/87363461/bfebf0e3-0db5-4d10-8eb4-66e634c4a065">
+
+
+<br>
+<b>참고 링크 : </b> [링크](https://www.inflearn.com/questions/748519/window%EC%97%90%EC%84%9C-unable-to-find-bundled-java-version-%EC%97%90%EB%9F%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%82%98%EC%9A%94-%E3%85%A0%E3%85%A0)
+
+</details>
+
+<br>
