@@ -223,11 +223,21 @@ class MyApp extends StatelessWidget {
 <br>
 <b>증상</b> : 자바 버전 변경 후 터미널에서 flutter doctor 실행 시 오류 발생
 <br>
-<b>원인</b> : 안드로이드 스튜디오 JDK 경로 오류
+<b>원인</b> : 안드로이드 스튜디오 JDK 경로 오류
 <br>
 <b>해결 방안</b> : 안드로이드 스튜디오 JDK 경로 재지정
 <br>
 <b>참고 링크 : </b> [링크](https://velog.io/@cafefarm-johnny/flutter-doctor-%EC%9D%B4%EC%8A%88-%EB%8C%80%EC%9D%91-%EB%AA%A9%EB%A1%9D)
+
+<b>환경</b> : Windows
+<br>
+<b>증상</b> : 자바 버전 변경 후 터미널에서 flutter doctor 실행 시 오류 발생
+<br>
+<b>원인</b> : 안드로이드 스튜디오 JDK 경로 오류
+<br>
+<b>해결 방안</b> : jbr 전체 파일 복사 후 jre 폴더에 복사
+<br>
+<b>참고 링크 : </b> [링크](https://www.inflearn.com/questions/748519/window%EC%97%90%EC%84%9C-unable-to-find-bundled-java-version-%EC%97%90%EB%9F%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%82%98%EC%9A%94-%E3%85%A0%E3%85%A0)
 
 </details>
 
