@@ -152,6 +152,7 @@ class MyApp extends StatelessWidget {
 <b>원인</b> : index.html 오류
 <br>
 <b>해결 방안</b> : script 추가 및 href 수정
+
 ```
 <base href="./">
 <script src="main.dart.js" type="application/javascript"></script>
@@ -274,6 +275,130 @@ class MyApp extends StatelessWidget {
 
 <br>
 <b>참고 링크 : </b> [링크](https://www.inflearn.com/questions/748519/window%EC%97%90%EC%84%9C-unable-to-find-bundled-java-version-%EC%97%90%EB%9F%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%82%98%EC%9A%94-%E3%85%A0%E3%85%A0)
+
+</details>
+
+<br>
+
+</details>
+
+<details>
+  <summary><h3>sdk does not contain 'libarclite' at the path</h3></summary>
+
+<b>환경</b> : Mac / Visual Studio Code / Flutter 3.7.10
+<br>
+<b>증상</b> : Run 시 오류 발생
+<br>
+<b>원인</b> : Xcode 버전 업이 되면서 충돌 발생
+<br>
+<b>해결 방안</b> : Target 버전 명시
+
+```
+// 기존
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_ios_build_settings(target)
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '5.0'  # required by simple_permission
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
+        '$(inherited)',
+        ## dart: PermissionGroup.calendar
+        'PERMISSION_EVENTS=0',
+
+        ## dart: PermissionGroup.reminders
+        'PERMISSION_REMINDERS=0',
+
+        ## dart: PermissionGroup.contacts
+        'PERMISSION_CONTACTS=0',
+
+        ## dart: PermissionGroup.camera
+        'PERMISSION_CAMERA=1',
+
+        ## dart: PermissionGroup.microphone
+        'PERMISSION_MICROPHONE=1',
+
+        ## dart: PermissionGroup.speech
+        'PERMISSION_SPEECH_RECOGNIZER=0',
+
+        ## dart: PermissionGroup.photos
+        'PERMISSION_PHOTOS=0',
+
+        ## dart: [PermissionGroup.location, PermissionGroup.locationAlways, PermissionGroup.locationWhenInUse]
+        'PERMISSION_LOCATION=0',
+
+        ## dart: PermissionGroup.notification
+         'PERMISSION_NOTIFICATIONS=0',
+
+        ## dart: PermissionGroup.mediaLibrary
+         'PERMISSION_MEDIA_LIBRARY=0',
+
+        ## dart: PermissionGroup.sensors
+         'PERMISSION_SENSORS=0',
+
+        ## dart: PermissionGroup.bluetooth
+        'PERMISSION_BLUETOOTH=0',
+      ]
+    end
+  end
+end
+
+
+// 타겟 버전 추가
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_ios_build_settings(target)
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      config.build_settings['SWIFT_VERSION'] = '5.0'  # required by simple_permission
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
+        '$(inherited)',
+        ## dart: PermissionGroup.calendar
+        'PERMISSION_EVENTS=0',
+
+        ## dart: PermissionGroup.reminders
+        'PERMISSION_REMINDERS=0',
+
+        ## dart: PermissionGroup.contacts
+        'PERMISSION_CONTACTS=0',
+
+        ## dart: PermissionGroup.camera
+        'PERMISSION_CAMERA=1',
+
+        ## dart: PermissionGroup.microphone
+        'PERMISSION_MICROPHONE=1',
+
+        ## dart: PermissionGroup.speech
+        'PERMISSION_SPEECH_RECOGNIZER=0',
+
+        ## dart: PermissionGroup.photos
+        'PERMISSION_PHOTOS=0',
+
+        ## dart: [PermissionGroup.location, PermissionGroup.locationAlways, PermissionGroup.locationWhenInUse]
+        'PERMISSION_LOCATION=0',
+
+        ## dart: PermissionGroup.notification
+         'PERMISSION_NOTIFICATIONS=0',
+
+        ## dart: PermissionGroup.mediaLibrary
+         'PERMISSION_MEDIA_LIBRARY=0',
+
+        ## dart: PermissionGroup.sensors
+         'PERMISSION_SENSORS=0',
+
+        ## dart: PermissionGroup.bluetooth
+        'PERMISSION_BLUETOOTH=0',
+      ]
+    end
+  end
+end
+
+```
+
+
+<br>
+<b>참고 링크 : </b> [링크](https://thoonk.tistory.com/103)
 
 </details>
 
