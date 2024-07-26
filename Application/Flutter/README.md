@@ -404,3 +404,27 @@ end
 </details>
 
 <br>
+
+
+<br>
+
+<details>
+  <summary><h3>cocoapods did not set the base configuration</h3></summary>
+  
+<b>환경</b> : Mac 
+<br>
+<b>증상</b> : pod install 시 경고 발생
+<br>
+<b>원인</b> : *.xcconfig 파일이 현재 프로젝트 설정에 적용되어 있지 않기 때문에 CocoaPods가 적용되지 않았기 때문
+<br>
+<b>해결 방안</b> : ios > Flutter > Release.xcconfig 내용 추가
+
+```
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"
+```
+
+<br>
+<b>참고 링크 : </b> [링크](https://kim0617.tistory.com/314)
+
+</details>
