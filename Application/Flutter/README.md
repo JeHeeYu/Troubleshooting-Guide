@@ -428,3 +428,40 @@ end
 <b>참고 링크 : </b> [링크](https://kim0617.tistory.com/314)
 
 </details>
+
+<br>
+
+
+<br>
+
+<details>
+  <summary><h3>Archive 후 배포 시 Version 명 변경되지 않음</h3></summary>
+  
+<b>환경</b> : Mac 
+<br>
+<b>증상</b> : XCode에서 Identity - Version 명 변경해도 Archives 에서 버전 명 변경되지 않음
+<br>
+<b>원인</b> : X
+<br>
+<b>해결 방안</b> : Info.plist 에서 CFBundleShortVersionString, CFBundleVersion 수정
+
+```
+// 기존
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+
+// 수정 후
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+```
+
+<br>
+<b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/74083027/flutter-ios-app-version-and-build-number-not-updating-when-archiving-in-xcode)
+
+</details>
