@@ -103,3 +103,19 @@ git pull
 <b>참고 링크 : </b> [링크](https://songacoding.tistory.com/42)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>error: object file .git/objects/52/fbac1a2981e0925b6fd0dd546a6cc35d9ae4cc is empty</h3></summary>
+  
+<b>환경</b> : Linux(Raspberry Pi)
+<br>
+<b>증상</b> : git pull 시 오류 발생
+<br>
+<b>원인</b> : git object 오류
+<br>
+<b>해결 방안</b> : git object 삭제 후 pull
+<b>참고 링크 : </b> [링크](https://tyeolrik.github.io/git/2021/12/29/git-1-when-git-said-object-file-is-empty.html)
+
+</details>
