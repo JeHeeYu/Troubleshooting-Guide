@@ -467,3 +467,22 @@ end
 <b>참고 링크 : </b> [링크](https://stackoverflow.com/questions/74083027/flutter-ios-app-version-and-build-number-not-updating-when-archiving-in-xcode)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3> Error: Type 'UnmodifiableUint8ListView' not found. Error: Method not found: 'UnmodifiableUint8ListView'</h3></summary>
+
+<b>환경</b> : Mac OS, flutter 3.27
+<br>
+<b>증상</b> : run 시 오류 발생
+<br>
+<b>원인</b> : UnmodifiableUint8ListView가 Dart 버전에 따라 사용되지 않음으로 인하여 발생
+<br>
+<b>해결 방안</b> : win32를 사용하지 않아 pubspec.lock 삭제 후 재실행
+
+<br>
+<b>참고 링크 : </b> [링크](https://studiodoc.tistory.com/182)
+
+</details>
+
