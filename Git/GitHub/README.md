@@ -119,3 +119,19 @@ git pull
 <b>참고 링크 : </b> [링크](https://tyeolrik.github.io/git/2021/12/29/git-1-when-git-said-object-file-is-empty.html)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>fatal: Not possible to fast-forward, aborting.</h3></summary>
+  
+<b>환경</b> : Linux(Raspberry Pi)
+<br>
+<b>증상</b> : git pull 시 오류 발생
+<br>
+<b>원인</b> : 리모트와 로컬의 브랜치가 fast-forward 관계가 아니어서 발생
+<br>
+<b>해결 방안</b> : git pull --rebase
+<b>참고 링크 : </b> [링크](https://velog.io/@eunddodi/Not-possible-to-fast-forward-aborting.-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0)
+
+</details>
