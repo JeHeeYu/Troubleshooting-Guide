@@ -17,3 +17,24 @@ fsck -y /dev/sda1
 <b>참고 링크 : </b> [링크](https://velog.io/@reveloper-1311/%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%B6%80%ED%8C%85%EC%97%90%EB%9F%AC-initramfs)
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>Failed to fetch [URL] Hash error</h3></summary>
+
+<b>환경</b> : Ubuntu 22.04, Docker Container
+<br>
+<b>증상</b> : 도커 컨테이너 환경에서 apt-get update 시 오류 발생
+<br>
+<b>원인</b> : apt cache가 남아 있어서 발생하는 것으로 추정
+<br>
+<b>해결 방안</b> : apt cache 삭제
+```
+rm -rf /var/lib/apt/lists/
+apt-get clean
+apt-get update
+```
+<b>참고 링크 : </b> X
+
+</details>
