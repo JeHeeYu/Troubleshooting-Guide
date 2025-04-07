@@ -38,3 +38,23 @@ apt-get update
 <b>참고 링크 : </b> X
 
 </details>
+
+<br>
+
+<details>
+  <summary><h3>fatal error: json/json.h: No such file or directory</h3></summary>
+
+<b>환경</b> : Ubuntu 22.04
+<br>
+<b>증상</b> : 리눅스 환경에서 json.h를 찾지 못함
+<br>
+<b>원인</b> : json 라이브러리 링크가 되어있지 않아 발생
+<br>
+<b>해결 방안</b> : json 라이브러리 링크
+```
+sudo ln -s /usr/include/jsoncpp/json/ /usr/include/json
+```
+
+<b>참고 링크 : </b> [링크(https://github.com/stardust95/TinyCompiler/issues/2)]
+
+</details>
