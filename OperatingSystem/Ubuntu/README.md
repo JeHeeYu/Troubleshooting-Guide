@@ -55,6 +55,6 @@ apt-get update
 sudo ln -s /usr/include/jsoncpp/json/ /usr/include/json
 ```
 
-<b>참고 링크 : </b> [링크(https://github.com/stardust95/TinyCompiler/issues/2)]
+<b>참고 링크 : </b> [링크](https://github.com/stardust95/TinyCompiler/issues/2)
 
 </details>
