@@ -33,3 +33,23 @@
 <b>참고 링크 : </b> [링크](https://velog.io/@justdoplzz/mysql%EC%98%A4%EB%A5%98-Your-connection-attempt-failed-for-user-root-to-the-MySQL-server-at-localhost3306-Unable-to-connect-to-localhost-ERROR-10043-08S01-Bad-handshake)
 
 </details>
+
+
+<br>
+
+<details>
+  <summary><h3>could not acquire management access for administration</h3></summary>
+
+<b>환경</b> : Windows 11
+<br>
+<b>증상</b> : MySQL WorkBench 실행 후 Server Status 클릭하니 아래 오류 발생
+<br>
+![image](https://github.com/user-attachments/assets/f2194aef-4329-4ec4-9cf2-4ecf6cea47d1)
+<br>
+<b>원인</b> : Window 환경의 64비트에서 chcp.com 파일을 찾지 못하여 MySQL 서버가 실행되지 못해 발생
+<br>
+<b>해결 방안</b> : 제어판 - 시스템 로캘 변경에서 UTF-8 설정 
+<br>
+<b>참고 링크 : </b> [링크](https://velog.io/@su-mmer/MySQL-Workbench-RuntimeError)
+
+</details>
